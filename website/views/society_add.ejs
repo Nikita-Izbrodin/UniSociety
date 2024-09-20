@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/main.css">
+	<title> University Societies </title>
+</head>
+
+<body>
+	<%- include('common/header'); %>
+	<div>
+		<h1> Add Society </h1>
+		<h3>
+			<%= message %>
+				<form method="post" class="form">
+					<p> <label for="Soc_Name"> Name: </label> <input name="Soc_Name" required> </p>
+					<p> <label for="Soc_Email"> Email: </label> <input type="email" name="Soc_Email" required> </p>
+					<input type="submit" value="Add">
+				</form>
+		</h3>
+	</div>
+</body>
+
+</html>

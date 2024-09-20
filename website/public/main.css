@@ -1,0 +1,114 @@
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #000;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+h3 {
+  color: #fff;
+}
+
+ul {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+nav {
+  background-color: #23aa1c;
+  border-radius: 5px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  list-style-type: none;
+}
+
+nav li {
+  margin: 0 10px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.homepage_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  max-width: 1000px;
+}
+
+.homepage_items .card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+  width: 200px;
+  cursor: pointer;
+}
+
+.homepage_items a {
+  color: #000;
+}
+
+.homepage_items h3 {
+  color: #000;
+}
+
+.data th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: left;
+}
+
+.data a {
+  color: #000;
+}
+
+.data th {
+  background-color: #23aa1c;
+  color: #fff;
+}
+
+.data tr {
+  background-color: #fff;
+}
+
+.data tr:hover {
+  background-color: #6aabc4;
+}
+
+.form {
+  max-width: 1000px;
+  padding: 1rem;
+  color: #fff;
+}
+
+.button {
+  display: inline-block;
+  background-color: #23aa1c;
+  color: #fff;
+  padding: 5px 5px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #6aabc4;
+}
